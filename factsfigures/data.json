@@ -1,0 +1,45 @@
+{
+
+	"0": {
+		"category": "Mobiliteit",
+		"title": "Autobezit Den Haag",
+		"description": "Het aantal geregistreerde particuliere kentekens Den Haag (exclusief leaseauto's)",
+		"info": "Meer informatie over deze set. Wat meer paragrafen. ",
+		"url":"http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=e8a9b008-65a6-437d-b43e-0b8cbe0124a8",
+		"chart-type": "linechart",
+		"data": {
+			"cols": [{"id":"","label":"Jaar","type":"string"},
+				{"id":"","label":"Aantal","type":"number"}],
+			"rows": [
+				{"c":[{"v":"2009"},{"v":155866}]},
+				{"c":[{"v":"2010"},{"v":157243}]},
+				{"c":[{"v":"2011"},{"v":159764}]},
+				{"c":[{"v":"2012"},{"v":161469}]},
+				{"c":[{"v":"2013"},{"v":161070}]}
+			]
+		}
+	}, 
+
+	"1": {
+		"category": "Mobiliteit",
+		"title": "Vervoerskeuze Den Haag",
+		"description": "Het aandeel van verschillende vervoersvormen in Den Haag, volgens de Haagse Nota Mobiliteit 2011. ",
+		"info": "Meer informatie over deze set. Wat meer paragrafen. ",
+		"url":"http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=d17c2e40-bb93-4a2b-b050-05eacb6bd018",
+		"chart-type": "piechart",
+		"data": {
+			"cols": [
+				{"id":"","label":"Jaar","type":"string"},
+				{"id":"","label":"Aantal","type":"number"}
+			],
+			"rows": [
+				{"c":[{"v":"2009"},{"v":155866}]},
+				{"c":[{"v":"2010"},{"v":157243}]},
+				{"c":[{"v":"2011"},{"v":159764}]},
+				{"c":[{"v":"2012"},{"v":161469}]},
+				{"c":[{"v":"2013"},{"v":161070}]}
+			]
+		}
+	}
+
+}
