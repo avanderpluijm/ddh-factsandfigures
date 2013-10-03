@@ -6,18 +6,30 @@ Template Name: Facts & Figures
 
 <?php get_header(); ?>
 
+<div class="overview">
+  <div class="rij kop subkop"></div>
+  <div class='rij breadcrumbs'>
+    <div class='pijl'></div>
+  </div>
 
-<div class='container'>
-	<div class="row">
-    <div class="span12">
-      <h3>Transport en Vervoer</h3>
-    </div>
-    <div class="span4 chart" id="chart-1">
-      <div class="row">
-        <div class="span3">
-          <h4>Autobezit Den Haag</h4>
+  <div class="rij">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="jumbotron">
+          <h1>Facts & Figures</h1>
+          <p>Het overzicht met feiten en visualisaties over duurzaamheid in Den Haag.</p> 
         </div>
-        <div class="span1">
+      </div>
+    </div>
+  </div>
+  <div class="rij">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <h3>Transport en Vervoer</h3>
+      </div>
+      <div class="row-fluid">
+        <div class="span4 chart" id="chart-1">
+          <h4>Autobezit Den Haag</h4>
           <div class="controls">
             <ul>
               <li>
@@ -37,77 +49,53 @@ Template Name: Facts & Figures
               </li>
             </ul>
           </div>
-        </div>
-       </div>
-       <div class="row"> 
-        <div class="span4">
           <p>Het aantal geregistreerde particuliere kentekens Den Haag (exclusief leaseauto's)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span4">
           <div id="chart_div1" class="graph"> </div>
         </div>
-      </div>
-    </div>
-
-        <div class="span4 chart" id="chart-2">
-          <div class="row">
-            <div class="span3">
-              <h4>Vervoerskeuze Den Haag</h4>
-            </div>
-            <div class="span1">
-              <div class="controls">
-                <ul>
-                  <li>
-                    <a class="tooltip" data-toggle="tooltip" title="bron" href="http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=d17c2e40-bb93-4a2b-b050-05eacb6bd018">
-                      <i class="icon-link-1"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="tooltip" data-toggle="tooltip" title="maximaliseer" href="#">
-                      <i class="icon-resize-full"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#">
-                      <i class="icon-info-circled-1"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      
+        <div class="span4 chart middle" id="chart-2">
+          <h4>Vervoerskeuze Den Haag</h4>
+          <div class="controls">
+            <ul>
+              <li>
+                <a class="tooltip" data-toggle="tooltip" title="bron" href="http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=d17c2e40-bb93-4a2b-b050-05eacb6bd018">
+                  <i class="icon-link-1"></i>
+                </a>
+              </li>
+              <li>
+                <a class="tooltip" data-toggle="tooltip" title="maximaliseer" href="#">
+                  <i class="icon-resize-full"></i>
+                </a>
+              </li>
+              <li>
+                <a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#">
+                  <i class="icon-info-circled-1"></i>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="row"> 
-            <div class="span4">
-              <p>Het aandeel van verschillende vervoersvormen in Den Haag, volgens de Haagse Nota Mobiliteit 2011</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <div id="chart_div2" class="graph"></div>
-            </div>
-          </div>
+          <p>Het aandeel van verschillende vervoersvormen in Den Haag, volgens de Haagse Nota Mobiliteit 2011</p>
+          <div id="chart_div2" class="graph"></div>
         </div>
-      </div>       
+      </div>
 
       <hr />
 
-      <div class="row">
-        <div class="span12">
-          <h3>Energie</h3>
-        </div>
-        <div class="span">
+      <div class="span12">
+        <h3>Energie</h3>
+      </div>
+      <div class="row-fluid">
+        <div class="span4 chart" id="chart-3">
           <h4>Vastgoed: CO2 Uitstoot</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <div id="chart_div1" class="graph"> </div>
         </div>
-        <div class="span4">
+        <div class="span4 chart middle">
           <h4>Vastgoed: Verbruik electra</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <div id="chart_div2" class="graph"> </div>
-       </div>
-        <div class="span4">
+        </div>
+        <div class="span4 chart">
           <h4>Vastgoed: Verbruik Gas</h4>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <div id="chart_div3" class="graph"> </div>
@@ -133,28 +121,15 @@ Template Name: Facts & Figures
         </div>
 
       </div>
+    </div>
+  </div>
+</div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div style='text-align:center;'>Binnenkort komt hier Duurzaam Den Haag Facts &amp; Figures.</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
+<?php 
+  echo '<link href="'.get_template_directory_uri().'/factsfigures/fontello/css/fontello.css" rel="stylesheet" type="text/css">';
+  echo '<link href="'.get_template_directory_uri().'/factsfigures/main.css" rel="stylesheet" type="text/css">';
+  echo '<script type="text/javascript" src="https://www.google.com/jsapi"></script>';
+  echo '<script type="text/javascript" src="'.get_template_directory_uri().'/factsfigures/script.js"></script>';
+?>
 
 <?php get_footer();?>
