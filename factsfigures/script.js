@@ -18,16 +18,23 @@ function getData(){
 }
 
 function drawCharts(data) {
-  
-  var options = {'width':300, 'height':250};
-
-  // for each node in data
-  // Create a chart
+  // for each node in data create a chart
+  $.each(data, function( key, value ) {
+    console.log( key + ": " + JSON.stringify(value));
     // process data
+    
     // make the chart
+    var options = {'width':300, 'height':250};
+
     // add info to DOM (title, desc, url etc)
+    
     // add to DOM object
 
+  });
+  
+
+  // test
+  /*
   var dt = new google.visualization.DataTable({
     cols: [
       {id: 'task', label: 'Task', type: 'string'},
@@ -44,4 +51,5 @@ function drawCharts(data) {
   // Set chart options
   var chart = new google.visualization.LineChart(document.getElementById('chart_div1'));
   chart.draw(dt, options);
+  */
 }

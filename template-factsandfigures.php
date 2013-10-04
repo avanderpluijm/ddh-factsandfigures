@@ -25,6 +25,48 @@ Template Name: Facts & Figures
   </div>
   <div class="rij">
     <div class="container-fluid">
+      
+      <div class="row-fluid">
+        <h3>Energie</h3>
+      </div>
+      
+      <div class="row-fluid">
+        <div class="span4 chart col1" id="chart-1">
+          <h4>Opwekking zonne-energie KV (kWh)</h4>
+          <p>De opwekking van zonne-energie binnen de gemeentegrens van Den Haag. </p>
+          <div id="chart_div1" class="graph"> </div>
+        </div>
+        <div class="span4 chart col2">
+          <h4>Vastgoed: Verbruik electra</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <div id="chart_div2" class="graph"> </div>
+        </div>
+        <div class="span4 chart col3">
+          <h4>Vastgoed: Verbruik Gas</h4>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div id="chart_div3" class="graph"> </div>
+        </div>
+      </div>
+
+      <div class="row-fluid">
+        <div class="span4 chart col1" id="chart-1">
+          <h4>Vastgoed: CO2 Uitstoot</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <div id="chart_div1" class="graph"> </div>
+        </div>
+        <div class="span4 chart col2">
+          <h4>Vastgoed: Verbruik electra</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <div id="chart_div2" class="graph"> </div>
+        </div>
+        <div class="span4 chart col3">
+          <h4>Vastgoed: Verbruik Gas</h4>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div id="chart_div3" class="graph"> </div>
+        </div>
+
+      </div>
+
       <div class="row-fluid">
         <h3>Transport en Vervoer</h3>
       </div>
@@ -36,11 +78,6 @@ Template Name: Facts & Figures
               <li>
                 <a class="tooltip" data-toggle="tooltip" title="bron" href="http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=e8a9b008-65a6-437d-b43e-0b8cbe0124a8">
                   <i class="icon-link-1"></i>
-                </a>
-              </li>
-              <li>
-                <a class="tooltip" data-toggle="tooltip" title="maximaliseer" href="#">
-                  <i class="icon-resize-full"></i>
                 </a>
               </li>
               <li>
@@ -64,11 +101,6 @@ Template Name: Facts & Figures
                 </a>
               </li>
               <li>
-                <a class="tooltip" data-toggle="tooltip" title="maximaliseer" href="#">
-                  <i class="icon-resize-full"></i>
-                </a>
-              </li>
-              <li>
                 <a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#">
                   <i class="icon-info-circled-1"></i>
                 </a>
@@ -82,26 +114,7 @@ Template Name: Facts & Figures
 
       <hr />
 
-      <div class="span12">
-        <h3>Energie</h3>
-      </div>
-      <div class="row-fluid">
-        <div class="span4 chart" id="chart-3">
-          <h4>Vastgoed: CO2 Uitstoot</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div1" class="graph"> </div>
-        </div>
-        <div class="span4 chart middle">
-          <h4>Vastgoed: Verbruik electra</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div2" class="graph"> </div>
-        </div>
-        <div class="span4 chart">
-          <h4>Vastgoed: Verbruik Gas</h4>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <div id="chart_div3" class="graph"> </div>
-        </div>
-      </div>
+      
 
       <hr />
       
