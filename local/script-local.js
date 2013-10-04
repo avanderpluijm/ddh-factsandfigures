@@ -57,7 +57,7 @@ function drawCharts(data) {
   console.log('starting drawcharts');
   console.log(data);
 
-  var options = {'width':300, 'height':250};
+  var options = {'width':100%, 'height':250};
 
   // for each node in data
   // Create a chart
