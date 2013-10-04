@@ -3,26 +3,218 @@
     {
       "id": 0, 
       "category": "Energie",
-      "title": "Opwekking zonne-energie KV (kWh)",
+      "title": "Opwekking zonne-energie kleinverbruik (kWh)",
       "description": "De opwekking van zonne-energie binnen de gemeentegrens van Den Haag. ",
-      "info": "Meer informatie over deze set. Wat meer paragrafen. ",
-      "url":"http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=e8a9b008-65a6-437d-b43e-0b8cbe0124a8",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "source":"Stedin, energie in beeld. www.energieleveren.nl",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kWh","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":736701}]},
+          {"c":[{"v":"2009"},{"v":765376}]},
+          {"c":[{"v":"2010"},{"v":808271}]},
+          {"c":[{"v":"2011"},{"v":875673}]},
+          {"c":[{"v":"2012"},{"v":1657435}]},
+          {"c":[{"v":"2013"},{"v":1863838}]}
+        ]
+      }
+    },
+
+    {
+      "id": 1, 
+      "category": "Energie",
+      "title": "Totaal verbruik Elektra (kWh)",
+      "description": "Totaal verbruik electra binnen Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kWh","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":1990397455}]},
+          {"c":[{"v":"2009"},{"v":2017439595}]},
+          {"c":[{"v":"2010"},{"v":2023624510}]},
+          {"c":[{"v":"2011"},{"v":1988542639}]},
+          {"c":[{"v":"2012"},{"v":1948239786}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    {
+      "id": 2, 
+      "category": "Energie",
+      "title": "Totaal verbruik Gas (m3/h)",
+      "description": "Totaal verbruik gas binnen Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"m3/h","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":467125240}]},
+          {"c":[{"v":"2009"},{"v":472200160}]},
+          {"c":[{"v":"2010"},{"v":472787002}]},
+          {"c":[{"v":"2011"},{"v":454578814}]},
+          {"c":[{"v":"2012"},{"v":435360373}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    {
+      "id": 3, 
+      "category": "Energie",
+      "title": "Totaal CO2 uitstoot (kg)",
+      "description": "Totale CO2 uitsoot binnen de gemeente Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "source":"Stedin, energie in beeld. www.energieleveren.nl",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kg","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":1992778133}]},
+          {"c":[{"v":"2009"},{"v":2016811450}]},
+          {"c":[{"v":"2010"},{"v":2031270429}]},
+          {"c":[{"v":"2011"},{"v":1977701623}]},
+          {"c":[{"v":"2012"},{"v":1918646990}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    {
+      "id": 4, 
+      "category": "Energie",
+      "title": "Totale CO2 uitstoot Particulier (kg)",
+      "description": "Totale CO2 uitstoot van particulieren binnen de gemeente Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "source":"Stedin, energie in beeld. www.energieleveren.nl",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kg","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":689960732}]},
+          {"c":[{"v":"2009"},{"v":696460340}]},
+          {"c":[{"v":"2010"},{"v":703144683}]},
+          {"c":[{"v":"2011"},{"v":684644588}]},
+          {"c":[{"v":"2012"},{"v":663386897}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    {
+      "id": 5, 
+      "category": "Energie",
+      "title": "Totale CO2 uitstoot Zakelijk (kg)",
+      "description": "Totale CO2 uitstoot zakelijk binnen de gemeente Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "source":"Stedin, energie in beeld. www.energieleveren.nl",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kg","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":1302817401}]},
+          {"c":[{"v":"2009"},{"v":1320351110}]},
+          {"c":[{"v":"2010"},{"v":1329531187}]},
+          {"c":[{"v":"2011"},{"v":1294148506}]},
+          {"c":[{"v":"2012"},{"v":1257132729}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    {
+      "id": 6, 
+      "category": "Energie",
+      "title": "Gemiddelde CO2 uitstoot Particulier (kg)",
+      "description": "Gemiddelde CO2 uitstoot particulier binnen de gemeente Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "source":"Stedin, energie in beeld. www.energieleveren.nl",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kg","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":453190}]},
+          {"c":[{"v":"2009"},{"v":455628}]},
+          {"c":[{"v":"2010"},{"v":447120}]},
+          {"c":[{"v":"2011"},{"v":435548}]},
+          {"c":[{"v":"2012"},{"v":415029}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    {
+      "id": 7, 
+      "category": "Energie",
+      "title": "Gemiddelde CO2 uitstoot Zakelijk (kg)",
+      "description": "Gemiddelde CO2 uitstoot zakelijk binnen de gemeente Den Haag. ",
+      "info": "<strong>Brondata<strong><p>De informatie die u vindt in  Energie in beeld  over de opwek komt uit het Productie-Installatie Register (PIR). Wanneer consumenten en bedrijven bij de netbeheerder of via  www.energieleveren.nl   melden dat zij een productie-installatie hebben, dan komen hun gegevens in het PIR te staan. Niet iedereen meldt zich, waardoor de dekkingsgraad van het PIR niet 100 procent is. Deze dekkingsgraad wordt echter wel steeds beter, doordat een melding van teruglevering nodig is om via de energieleverancier te kunnen salderen.</p><p>Wanneer u merkt dat bepaalde installaties niet aanwezig zijn in  Energie in beeld , kunt u de betreffende eigenaar erop attenderen dat zij hun installatie kenbaar moeten maken bij de netbeheerder. Dit kan eenvoudig door een aanmelding via  www.energieleveren.nl   te doen</p><strong>Specificaties opwek</strong><p>Op dit moment worden alleen de gegevens van de elektrische opwek weergegeven. De reden hiervoor is dat gasopwek (bijv. Biogas) op dit moment nog te weinig voorkomt. In verband met de privacy is het nog niet mogelijk om deze gegevens te tonen. <br />De categorieën waarin de opwek wordt verdeeld wijken af van de categorieën waarin het verbruik wordt verdeeld. Bij verbruik maken we een onderscheid in 'particulier' en 'zakelijk'. Bij opwek maken we een onderscheid in 'zonne-energie KV' en 'Overige opwek'. Deze categorieën zijn te zien bij 'Type opwek', wanneer gekozen is voor opwek bij 'Getoonde gegevens'.<br />Bij opwek wordt alleen de totale opwek binnen een gebied weergegeven en niet de gemiddelde opwek. De reden hiervoor is dat de categorie uit verschillende typen installaties kan bestaan en dat de opwek per vastgoedobject kan variëren. Hierdoor kan er weinig waarde aan de gemiddelde opwek worden gehecht.</p><strong>Zonne-energie KV</strong><p>Binnen deze categorie behoren alle PV-installaties (zonnepanelen) bij een kleinverbruik aansluiting (tot 3x80 Ampère). Dit zijn hoofdzakelijk particulieren, maar kunnen ook winkels, scholen of andere kleinere bedrijven zijn. Ongeveer 95 procent van alle installaties in het PIR betreft deze categorie. <br /><p>Het aantal genoemde installaties (het aantal vastgoedobjecten in detailbox) is het meest waardevol. Hier ziet u hoeveel vastgoedobjecten een PV-installatie op hun dak hebben liggen. Daarbij wordt ook een schatting van de opgewekte kilowatturen (kWh) genoemd. Dit is het aantal kilowattuur dat de installatie naar schatting opwekt, niet wat het teruglevert aan het energienet. Hier zit een verschil in, omdat een woning of bedrijf zelf al een deel van de opwek verbruikt. De schatting van de opwek wordt bepaald door gebruik te maken van het opgestelde vermogen van de installatie, aangezien wij de opwek als netbeheerder niet meten. Het opgestelde vermogen wordt uitgedrukt in kilowattpiek (kWp). Het vaststellen van de jaarlijkse opwek wordt berekend met de onderstaande formule:<br />Geschatte opwek (kWh) = opgesteld vermogen installatie (kWp) x 850 <br />De omrekenfactor is gebaseerd op het gemiddelde aantal zonuren in Nederland per jaar.<br />De installatie wordt zichtbaar in het jaar waarop de klant heeft aangegeven dat de PV-installatie is geplaatst. Voor de geschatte opwek wordt ervan uit gegaan dat de PV-installatie het hele jaar energie heeft opgewekt, ongeacht de exacte datum van plaatsing. Hierdoor is het mogelijk dat de installatie het eerste jaar veel minder heeft opgewekt dan in  Energie in beeld  wordt weergegeven.  De trend wordt hiermee evengoed duidelijk.</p>",
+      "source":"Stedin, energie in beeld. www.energieleveren.nl",
+      "chart-type": "BarChart",
+      "data": {
+        "cols": [
+          {"id":"","label":"Jaar","type":"string"},
+          {"id":"","label":"kg","type":"number"}
+        ], 
+        "rows": [
+          {"c":[{"v":"2008"},{"v":3954833}]},
+          {"c":[{"v":"2009"},{"v":3945088}]},
+          {"c":[{"v":"2010"},{"v":3746030}]},
+          {"c":[{"v":"2011"},{"v":3569972}]},
+          {"c":[{"v":"2012"},{"v":3438936}]},
+          {"c":[{"v":"2013"},{"v":0}]}
+        ]
+      }
+    },
+
+    
+    {
+      "id": 8,
+      "category": "Klimaatfonds",
+      "title": "Resultaten Klimaatfonds",
+      "description": "De resultaten van het Klimaatfonds Haaglanden",
+      "info": "",
+      "url":"http://www.klimaatfondshaaglanden.nl/",
       "chart-type": "linechart",
       "data": {
         "cols": [
           {"id":"","label":"Jaar","type":"string"},
-          {"id":"","label":"Aantal","type":"number"}
-        ], 
+          {"id":"","label":"CO2 reductie","type":"number"},
+          {"id":"","label":"CO2 compensatie","type":"number"}],
         "rows": [
-          {"c":[{"v":"2009"},{"v":155866}]},
-          {"c":[{"v":"2010"},{"v":157243}]},
-          {"c":[{"v":"2011"},{"v":159764}]},
-          {"c":[{"v":"2012"},{"v":161469}]},
-          {"c":[{"v":"2013"},{"v":161070}]}
+          {"c":[{"v":"2010"},{"v":8350},{"v":7608}]},
+          {"c":[{"v":"2011"},{"v":10569},{"v":11116}]},
+          {"c":[{"v":"2012"},{"v":4838},{"v":9301}]}
         ]
       }
-    },{
-      "id": 1,
+    }, 
+
+
+    {
+      "id": 9,
       "category": "Mobiliteit",
       "title": "Autobezit Den Haag",
       "description": "Het aantal geregistreerde particuliere kentekens Den Haag (exclusief leaseauto's)",
@@ -39,9 +231,12 @@
           {"c":[{"v":"2011"},{"v":159764}]},
           {"c":[{"v":"2012"},{"v":161469}]},
           {"c":[{"v":"2013"},{"v":161070}]}
-      ]
-    }, {
-      "id": 3,
+        ]
+      }
+    }, 
+
+    {
+      "id": 10,
       "category": "Mobiliteit",
       "title": "Vervoerskeuze Den Haag",
       "description": "Het aandeel van verschillende vervoersvormen in Den Haag, volgens de Haagse Nota Mobiliteit 2011. ",
