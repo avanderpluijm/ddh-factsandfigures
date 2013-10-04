@@ -32,115 +32,152 @@ Template Name: Facts & Figures
       
       <div class="row-fluid">
         <div class="span4 chart col1" id="chart-1">
-          <h4>Opwekking zonne-energie KV (kWh)</h4>
-          <p>De opwekking van zonne-energie binnen de gemeentegrens van Den Haag. </p>
-          <div id="chart_div1" class="graph"> </div>
+           <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+            </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div1" class="graph"></div>
         </div>
-        <div class="span4 chart col2">
-          <h4>Vastgoed: Verbruik electra</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div2" class="graph"> </div>
+        <div class="span4 chart col2" id="chart-2">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div2" class="graph"></div>
         </div>
-        <div class="span4 chart col3">
-          <h4>Vastgoed: Verbruik Gas</h4>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <div id="chart_div3" class="graph"> </div>
+        <div class="span4 chart col3" id="chart-3">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div3" class="graph"></div>
         </div>
       </div>
 
       <div class="row-fluid">
-        <div class="span4 chart col1" id="chart-1">
-          <h4>Vastgoed: CO2 Uitstoot</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div1" class="graph"> </div>
+        <div class="span4 chart col1" id="chart-4">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div4" class="graph"> </div>
         </div>
-        <div class="span4 chart col2">
-          <h4>Vastgoed: Verbruik electra</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div2" class="graph"> </div>
+        <div class="span4 chart col2" id="chart-5">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div5" class="graph"> </div>
         </div>
-        <div class="span4 chart col3">
-          <h4>Vastgoed: Verbruik Gas</h4>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <div id="chart_div3" class="graph"> </div>
+        <div class="span4 chart col3" id="chart-6">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div6" class="graph"> </div>
         </div>
+      </div>
 
+      <div class="row-fluid">
+        <div class="span4 chart col1" id="chart-7">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div7" class="graph"> </div>
+        </div>
+        <div class="span4 chart col2" id="chart-8">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div8" class="graph"> </div>
+        </div>
+      </div>
+
+      <div class="row-fluid">
+        <h3>Klimaatfonds Haaglanden</h3>
+      </div>
+      
+      <div class="row-fluid">
+        <div class="span4 chart col1" id="chart-9">
+          <div class="controls">
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
+          </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div9" class="graph"> </div>
+        </div>
       </div>
 
       <div class="row-fluid">
         <h3>Transport en Vervoer</h3>
       </div>
+      
       <div class="row-fluid">
-        <div class="span4 chart" id="chart-1">
-          <h4>Autobezit Den Haag</h4>
+        <div class="span4 chart col1" id="chart-9">
           <div class="controls">
-            <ul>
-              <li>
-                <a class="tooltip" data-toggle="tooltip" title="bron" href="http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=e8a9b008-65a6-437d-b43e-0b8cbe0124a8">
-                  <i class="icon-link-1"></i>
-                </a>
-              </li>
-              <li>
-                <a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#">
-                  <i class="icon-info-circled-1"></i>
-                </a>
-              </li>
-            </ul>
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
           </div>
-          <p>Het aantal geregistreerde particuliere kentekens Den Haag (exclusief leaseauto's)</p>
-          <div id="chart_div1" class="graph"> </div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div10" class="graph"> </div>
         </div>
-      
-        <div class="span4 chart middle" id="chart-2">
-          <h4>Vervoerskeuze Den Haag</h4>
+        <div class="span4 chart col2" id="chart-10">
           <div class="controls">
-            <ul>
-              <li>
-                <a class="tooltip" data-toggle="tooltip" title="bron" href="http://www.denhaag.buurtmonitor.nl/quickstep/QsBasic.aspx?sel_guid=d17c2e40-bb93-4a2b-b050-05eacb6bd018">
-                  <i class="icon-link-1"></i>
-                </a>
-              </li>
-              <li>
-                <a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#">
-                  <i class="icon-info-circled-1"></i>
-                </a>
-              </li>
-            </ul>
+              <ul>
+                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+              </ul>
           </div>
-          <p>Het aandeel van verschillende vervoersvormen in Den Haag, volgens de Haagse Nota Mobiliteit 2011</p>
-          <div id="chart_div2" class="graph"></div>
+          <h4>Title</h4>
+          <p>desc</p>
+          <div id="chart_div11" class="graph"> </div>
         </div>
-      </div>
-
-      <hr />
-
-      
-
-      <hr />
-      
-      <div class="row">
-        <div class="span12">
-          <h3>Duurzaam Den Haag</h3>
-        </div>
-        <div class="span4">
-          <h4>Opwekking zonne-energie Den Haag</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div4" class="graph"> </div>
-        </div>
-
-        <div class="span4">
-          <h4>Resultaten Klimaatfonds</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <div id="chart_div5" class="graph"> </div>
-        </div>
-
       </div>
     </div>
   </div>
 </div>
 
 <?php 
-
   echo '<link href="'.get_template_directory_uri().'/factsfigures/fontello/css/fontello.css" rel="stylesheet" type="text/css">';
   echo '<link href="'.get_template_directory_uri().'/factsfigures/main.css" rel="stylesheet" type="text/css">';
   echo '<script type="text/javascript" src="https://www.google.com/jsapi"></script>';
