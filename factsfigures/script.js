@@ -4,16 +4,16 @@ $(document).ready(function(){
 
   // Turn tooltips on
   //$('.tooltip').tooltip(); 
-  console.log('document ready'); 
+  console.log('document ready');
   google.setOnLoadCallback(getData);
 
 });
 
 function getData(){
-  console.log('google loaded'); 
+  console.log('google loaded');
 
   $.getJSON('http://www.duurzaamdenhaag.nl/wp-content/uploads/data.json',{}).done(function(data) {
-    console.log('data loaded'); 
+    console.log('data loaded');
     drawCharts(data);
   });
 }
@@ -21,6 +21,8 @@ function getData(){
 function drawCharts(data) {
   console.log('starting drawcharts');
   console.log(data);
+
+  var options = {'width':300, 'height':250};
 
   // for each node in data
   // Create a chart
@@ -30,11 +32,10 @@ function drawCharts(data) {
     // add to DOM object
 
   var d = new google.visualization.DataTable();
-  console.log(d);
   //var datatable = new google.visualization.dataTable();
 
 
-  /*
+  
   var dt = new localGoogle.visualization.DataTable({
     cols: [
       {id: 'task', label: 'Task', type: 'string'},
@@ -48,9 +49,9 @@ function drawCharts(data) {
         {c:[{v: 'Sleep'}, {v:7, f:'7.000'}]}
       ]
   },0.6);
-*/
-  //console.log(d);
+
+  console.log(dt);
 
   // Set chart options
-  var options = {'width':300, 'height':250};
+  
 }
