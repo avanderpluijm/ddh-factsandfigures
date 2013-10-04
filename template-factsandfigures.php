@@ -4,7 +4,8 @@ Template Name: Facts & Figures
 */
 ?>
 
-<?php get_header(); ?>
+
+<?php //get_header(); ?>
 
 <div class="overview">
   <div class="rij kop subkop"></div>
@@ -125,7 +126,16 @@ Template Name: Facts & Figures
   </div>
 </div>
 
+<link href="/ddh-factsandfigures/factsfigures/fontello/css/fontello.css" rel="stylesheet" type="text/css">
+<link href="/ddh-factsandfigures/factsfigures/main.css" rel="stylesheet" type="text/css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="/ddh-factsandfigures/factsfigures/script.js"></script>
+
+
 <?php 
+
   echo '<link href="'.get_template_directory_uri().'/factsfigures/fontello/css/fontello.css" rel="stylesheet" type="text/css">';
   echo '<link href="'.get_template_directory_uri().'/factsfigures/main.css" rel="stylesheet" type="text/css">';
   echo '<script type="text/javascript" src="https://www.google.com/jsapi"></script>';
