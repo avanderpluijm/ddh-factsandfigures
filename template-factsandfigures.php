@@ -44,8 +44,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col1" id="chart-1">
             <div class="controls">
               <ul>
-                <li><a class="source chart-1" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
-                <li><a class="info chart-1" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-1" title="bron"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-1" title="Meer informatie"><i class="icon-info-circled-1"></i></a></li>
               </ul>
             </div>
           <h4></h4>
@@ -220,11 +220,15 @@ Template Name: Facts & Figures
 
 
 <div id="infoModal" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Header</h3>
+  </div>
   <div class="modal-body">
     <p>Information</p>
   </div>
   <div class="modal-footer">
-    <a href="#" class="btn">Close</a>
+    <a href="#" data-dismiss="modal" class="btn">Close</a>
   </div>
 </div>
 

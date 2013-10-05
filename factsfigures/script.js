@@ -1,20 +1,9 @@
 var data;
-var chartDiv;
-var drawChartDiv;
 
 google.load('visualization', '1', {packages: ['corechart']});
 
 $(document).ready(function(){
 
-  //modals
-  $(document).on("click",".controls a", function(e){
-    
-    showModal(2);
-  }) ; 
-
-  // Turn tooltips on
-  //$('.tooltip').tooltip(); 
-  
   $('.rij.facts').show();
   $('.rij.figures').hide();
 
@@ -36,23 +25,36 @@ $(document).ready(function(){
 });
 
 function getData(){
-  
-  $.getJSON('http://www.duurzaamdenhaag.nl/wp-content/uploads/data.json',{}).done(function(d) {
+  var url = 'http://www.duurzaamdenhaag.nl/wp-content/uploads/data.json';
+  //url = 'factsfigures/data.json';
+  $.getJSON(url,{}).done(function(d) {
     //console.log(data);
     data=d;
     drawCharts(data);
   });
 }
 
-function showModal(i){
+var dataPart;
+function showModal(i,element){
   //var e=data[i];
   //console.log(e);
-  console.log(i); 
-  console.log(data.graphs[ i]);
+  dataPart = data.graphs[i];
+
+  //console.log(i); 
+  //console.log(dataPart);
+  //console.log(element);
+  // console.log(dataPart["source"]);
+  // console.log(dataPart["info"]);
   // change text in modal
-  
+  var infoModal = $("#infoModal");
+  infoModal.find(".modal-header h3").html(element);
+  infoModal.find(".modal-body").first().html(dataPart[element]);
+  infoModal.modal();
 }
 
+function hideModal() {
+    $('#infoModal').modal('hide');
+}
 
 function drawCharts(data) {
   // for each node in data create a chart
@@ -77,14 +79,15 @@ function drawCharts(data) {
     //Find the link and set to url if exists (hide otherwise)
     var tooltips = chartDiv.find(".tooltip");
     var link = tooltips.first();
-    if(value.url === undefined) {
-      //link.hide();
-    } else {   
-      link.attr("href",value.url);
-    }
-    
-    //Hide the 'more information' link
-    //tooltips.eq(1).hide();
+
+    var id=chartDiv.find('.source');
+    id.attr("onclick","javascript:showModal(" + key + ",\"source\")");
+    id.attr("href","#infoModal");
+
+    //Set the 'more information' link
+    var moreInfo = chartDiv.find('.info');
+    moreInfo.attr("onclick","javascript:showModal(" + key + ",\"info\")");
+    moreInfo.attr("href","#infoModal");
 
     var chartType = value['chart-type'];
     var chart;
