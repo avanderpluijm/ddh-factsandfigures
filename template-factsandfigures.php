@@ -127,6 +127,7 @@ Template Name: Facts & Figures
         </div>
       </div>
 
+      <hr />
       <div class="row-fluid">
         <h3>Klimaatfonds Haaglanden</h3>
       </div>
@@ -145,8 +146,9 @@ Template Name: Facts & Figures
         </div>
       </div>
 
+      <hr />
       <div class="row-fluid">
-        <h3>Transport en Vervoer</h3>
+        <h3>Mobiliteit</h3>
       </div>
       
       <div class="row-fluid">

@@ -7,11 +7,20 @@ $(document).ready(function(){
   
   google.setOnLoadCallback(getData);
 
+  $('.rij.facts').click(function(e){
+    $('.rij.facts').show(); 
+    $('.rij.figures').hide(); 
+  }); 
+  $('.rij.figures').click(function(e){
+    $('.rij.figures').hide(); 
+    $('.rij.figures').show(); 
+  })
+
 });
 
 function getData(){
   
-  $.getJSON('http://www.duurzaamdenhaag.nl/wp-content/uploads/data.json',{}).done(function(data) {
+  $.getJSON('factsfigures/data.json',{}).done(function(data) {
     console.log('data loaded');
     drawCharts(data);
   });
