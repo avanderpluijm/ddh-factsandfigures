@@ -42,7 +42,7 @@ Template Name: Facts & Figures
       
       <div class="row-fluid">
         <div class="span4 chart col1" id="chart-1">
-           <div class="controls">
+            <div class="controls">
               <ul>
                 <li><a class="source chart-1" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
                 <li><a class="info chart-1" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
@@ -194,12 +194,24 @@ Template Name: Facts & Figures
     <div class="container-fluid">
       <h2>Figures</h2>
       <p>Duurzaam Den Haag maakt onder andere gebruik van ArcGIS online voor de presentatie van kaartmateriaal.</p>
-      <a href="http://ddh.maps.arcgis.com/home/"><img src=" <?php echo get_template_directory_uri();?>/factsfigures/img/arcgis.png" width="50%";/></a>
+      <a href="http://ddh.maps.arcgis.com/home/"><img src="<?php echo get_template_directory_uri();?>/factsfigures/img/arcgis.png" width="50%";/></a>
       <div class="map-examples">
         <p>Bekijk het totale aanbod van kaarten op <a href="http://ddh.maps.arcgis.com" target="_blank">Arcgis Online</a>. Hieronder staat een selectie van een aantal beschikbare kaarten:</p>
         <div class="map">
-          <img src="factfigures/img/map1.png" width="80px" />
-          <p></p>
+          <img src="<?php echo get_template_directory_uri();?>/factsfigures/img/map1.png" width="150px" />
+          <p>CO2 Uitstoot Den Haag</p>
+        </div>
+        <div class="map">
+          <img src="<?php echo get_template_directory_uri();?>/factsfigures/img/map2.png" width="150px" />
+          <p>Energie opwekking</p>
+        </div>
+        <div class="map">
+          <img src="<?php echo get_template_directory_uri();?>/factsfigures/img/map3.png" width="150px" />
+          <p>Energielabels</p>
+        </div>
+        <div class="map">
+          <img src="<?php echo get_template_directory_uri();?>/factsfigures/img/map4.png" width="150px" />
+          <p>Stadsboerderijen</p>
         </div>
       </div>
     </div>

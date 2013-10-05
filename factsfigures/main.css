@@ -4,6 +4,9 @@
    Author's custom styles
    ========================================================================== */
 
+.rij {
+  text-align: left;
+}
 .jumbotron {
   text-align: center;
   font-weight: 200;
@@ -23,6 +26,9 @@ h3 {
 }
 .chart {
   position: relative;
+}
+.chart h4 {
+  width: 90%;
 }
 .chart .controls {
   position: absolute;
@@ -47,4 +53,9 @@ h3 {
   color: #333;
   zoom: 1; 
   filter: alpha(opacity = 100);
+}
+
+.map-examples .map {
+  display: inline-block;
+  margin-right: 20px;
 }
