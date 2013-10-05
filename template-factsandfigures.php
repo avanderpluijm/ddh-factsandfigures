@@ -44,8 +44,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col1" id="chart-1">
            <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-1" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-1" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
             </div>
           <h4></h4>
@@ -55,8 +55,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col2" id="chart-2">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-2" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-2" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -66,8 +66,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col3" id="chart-3">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-3" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-3" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -81,8 +81,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col1" id="chart-4">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-4" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-4" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -92,8 +92,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col2" id="chart-5">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-5" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-5" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -103,8 +103,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col3" id="chart-6">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-6" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-6" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -118,8 +118,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col1" id="chart-7">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-7" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-7" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -129,8 +129,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col2" id="chart-8">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-8" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-8" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -148,8 +148,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col1" id="chart-9">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-9" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-9" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -167,8 +167,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col1" id="chart-10">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-10" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-10" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -178,8 +178,8 @@ Template Name: Facts & Figures
         <div class="span4 chart col2" id="chart-11">
           <div class="controls">
               <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+                <li><a class="source chart-11" title="bron" href="#infoModal"><i class="icon-link-1"></i></a></li>
+                <li><a class="info chart-11" title="Meer informatie" href="#infoModal"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
           <h4></h4>
@@ -206,8 +206,6 @@ Template Name: Facts & Figures
   </div>
 </div>
 
-
-<a href="#infoModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
 
 <div id="infoModal" class="modal hide fade">
   <div class="modal-body">

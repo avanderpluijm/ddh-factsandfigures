@@ -1,6 +1,16 @@
+var data;
+var chartDiv;
+var drawChartDiv;
+
 google.load('visualization', '1', {packages: ['corechart']});
 
 $(document).ready(function(){
+
+  //modals
+  $(document).on("click",".controls a", function(e){
+    
+    showModal(2);
+  }) ; 
 
   // Turn tooltips on
   //$('.tooltip').tooltip(); 
@@ -19,7 +29,7 @@ $(document).ready(function(){
   $('ul.nav-tabs .figures').click(function(e){
     $('.rij.facts').hide();
     $('.rij.figures').show();
-    $('ul li.facts').removeClass('active'); 
+    $('ul li.facts').removeClass('active');
     $('ul li.figures').addClass('active');
   });
 
@@ -27,14 +37,22 @@ $(document).ready(function(){
 
 function getData(){
   
-  $.getJSON('http://www.duurzaamdenhaag.nl/wp-content/uploads/data.json',{}).done(function(data) {
-    console.log(data);
+  $.getJSON('http://www.duurzaamdenhaag.nl/wp-content/uploads/data.json',{}).done(function(d) {
+    //console.log(data);
+    data=d;
     drawCharts(data);
   });
 }
 
-var chartDiv;
-var drawChartDiv;
+function showModal(i){
+  //var e=data[i];
+  //console.log(e);
+  console.log(i); 
+  console.log(data.graphs[ i]);
+  // change text in modal
+  
+}
+
 
 function drawCharts(data) {
   // for each node in data create a chart
