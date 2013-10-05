@@ -23,9 +23,19 @@ Template Name: Facts & Figures
       </div>
     </div>
   </div>
+
   <div class="rij">
     <div class="container-fluid">
-      
+      <ul class="nav nav-tabs">
+        <li class="facts active">Facts<a href="#"></a></li>
+        <li class="figures">Figures<a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="rij facts">
+    <div class="container-fluid">
+      <h2>Facts</h2>
       <div class="row-fluid">
         <h3>Energie</h3>
       </div>
@@ -38,8 +48,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
             </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div1" class="graph"></div>
         </div>
         <div class="span4 chart col2" id="chart-2">
@@ -49,8 +59,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div2" class="graph"></div>
         </div>
         <div class="span4 chart col3" id="chart-3">
@@ -60,8 +70,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div3" class="graph"></div>
         </div>
       </div>
@@ -74,8 +84,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div4" class="graph"> </div>
         </div>
         <div class="span4 chart col2" id="chart-5">
@@ -85,8 +95,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div5" class="graph"> </div>
         </div>
         <div class="span4 chart col3" id="chart-6">
@@ -96,8 +106,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div6" class="graph"> </div>
         </div>
       </div>
@@ -110,8 +120,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div7" class="graph"> </div>
         </div>
         <div class="span4 chart col2" id="chart-8">
@@ -121,8 +131,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div8" class="graph"> </div>
         </div>
       </div>
@@ -140,8 +150,8 @@ Template Name: Facts & Figures
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div9" class="graph"> </div>
         </div>
       </div>
@@ -152,29 +162,38 @@ Template Name: Facts & Figures
       </div>
       
       <div class="row-fluid">
-        <div class="span4 chart col1" id="chart-9">
+        <div class="span4 chart col1" id="chart-10">
           <div class="controls">
               <ul>
                 <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div10" class="graph"> </div>
         </div>
-        <div class="span4 chart col2" id="chart-10">
+        <div class="span4 chart col2" id="chart-11">
           <div class="controls">
               <ul>
                 <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
                 <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
               </ul>
           </div>
-          <h4>Title</h4>
-          <p>desc</p>
+          <h4></h4>
+          <p></p>
           <div id="chart_div11" class="graph"> </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="rij figures"> 
+    <div class="container-fluid">
+      <h2>Figures</h2>
+      <p>Duurzaam Den Haag maakt onder andere gebruik van ArcGIS online voor de presentatie van kaartmateriaal.</p>
+      <img src=" <?php echo get_template_directory_uri();?>/factsfigures/img/arcgis.png" width="400px";/>
+
     </div>
   </div>
 </div>

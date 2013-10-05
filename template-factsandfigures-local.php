@@ -15,7 +15,6 @@ Template Name: Facts & Figures
 
   <div class="rij">
     <div class="container-fluid">
-
       <div class="row-fluid">
         <div class="jumbotron">
           <h1>Facts & Figures</h1>
@@ -24,14 +23,19 @@ Template Name: Facts & Figures
       </div>
     </div>
   </div>
-  <div class="rij facts">
-    <div class="container-fluid">
 
+  <div class="rij">
+    <div class="container">
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#">Facts</a></li>
-        <li><a href="#">Figures</a></li>
+        <li class="facts active"><a href="#">Facts</a></li>
+        <li class="figures"><a href="#">Figures</a></li>
       </ul>
+    </div>
+  </div>
 
+  <div class="rij facts">
+    <div class="container">
+      <h2>Facts</h2>
       <div class="row-fluid">
         <h3>Energie</h3>
       </div>
@@ -158,7 +162,7 @@ Template Name: Facts & Figures
       </div>
       
       <div class="row-fluid">
-        <div class="span4 chart col1" id="chart-9">
+        <div class="span4 chart col1" id="chart-10">
           <div class="controls">
               <ul>
                 <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
@@ -169,12 +173,12 @@ Template Name: Facts & Figures
           <p>desc</p>
           <div id="chart_div10" class="graph"> </div>
         </div>
-        <div class="span4 chart col2" id="chart-10">
+        <div class="span4 chart col2" id="chart-11">
           <div class="controls">
-              <ul>
-                <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
-                <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
-              </ul>
+            <ul>
+              <li><a class="tooltip" data-toggle="tooltip" title="bron" href="#"><i class="icon-link-1"></i></a></li>
+              <li><a class="tooltip" data-toggle="tooltip" title="Meer informatie" href="#"><i class="icon-info-circled-1"></i></a></li>
+            </ul>
           </div>
           <h4>Title</h4>
           <p>desc</p>
@@ -185,7 +189,10 @@ Template Name: Facts & Figures
   </div>
 
   <div class="rij figures"> 
-    <p>lala</p>
+    <div class="container">
+      <h2>Figures</h2>
+
+    </div>
   </div>
 </div>
 
@@ -203,7 +210,7 @@ Template Name: Facts & Figures
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script type="text/javascript" src="/ddh-factsandfigures/local/script-local.js"></script>
+<script type="text/javascript" src="/ddh-factsandfigures/local/script-local-g.js"></script>
 
 
 <?php //get_footer();?>
