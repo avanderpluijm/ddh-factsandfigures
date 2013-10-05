@@ -27,8 +27,8 @@ Template Name: Facts & Figures
   <div class="rij">
     <div class="container-fluid">
       <ul class="nav nav-tabs">
-        <li class="facts active">Facts<a href="#"></a></li>
-        <li class="figures">Figures<a href="#"></a></li>
+        <li class="facts active"><a href="#">Facts</a></li>
+        <li class="figures"><a href="#">Figures</a></li>
       </ul>
     </div>
   </div>
@@ -75,6 +75,7 @@ Template Name: Facts & Figures
           <div id="chart_div3" class="graph"></div>
         </div>
       </div>
+      <hr />
 
       <div class="row-fluid">
         <div class="span4 chart col1" id="chart-4">
@@ -111,6 +112,7 @@ Template Name: Facts & Figures
           <div id="chart_div6" class="graph"> </div>
         </div>
       </div>
+      <hr />
 
       <div class="row-fluid">
         <div class="span4 chart col1" id="chart-7">
@@ -192,9 +194,27 @@ Template Name: Facts & Figures
     <div class="container-fluid">
       <h2>Figures</h2>
       <p>Duurzaam Den Haag maakt onder andere gebruik van ArcGIS online voor de presentatie van kaartmateriaal.</p>
-      <img src=" <?php echo get_template_directory_uri();?>/factsfigures/img/arcgis.png" width="400px";/>
-
+      <a href="http://ddh.maps.arcgis.com/home/"><img src=" <?php echo get_template_directory_uri();?>/factsfigures/img/arcgis.png" width="50%";/></a>
+      <div class="map-examples">
+        <p>Bekijk het totale aanbod van kaarten op <a href="http://ddh.maps.arcgis.com" target="_blank">Arcgis Online</a>. Hieronder staat een selectie van een aantal beschikbare kaarten:</p>
+        <div class="map">
+          <img src="factfigures/img/map1.png" width="80px" />
+          <p></p>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
+
+<a href="#infoModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+
+<div id="infoModal" class="modal hide fade">
+  <div class="modal-body">
+    <p>Information</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
   </div>
 </div>
 

@@ -42,8 +42,12 @@ function drawCharts(data) {
 
     var chartData = new google.visualization.DataTable(value.data);
     // make the chart
-    var options = {'width':300, 'height':250};
-
+    var options = {'width':'100%', 'height':240};
+    var options = { 
+      'width':'100%', 
+      'height':240,  
+      series: [{color: 'blue', visibleInLegend: true}, {color: 'red', visibleInLegend: false}]
+    };
     // add info to DOM (title, desc, url etc)
 
     chartDiv = $("#chart-" + (key+1));
@@ -55,16 +59,14 @@ function drawCharts(data) {
     //Find the link and set to url if exists (hide otherwise)
     var tooltips = chartDiv.find(".tooltip");
     var link = tooltips.first();
-    if(value.url === undefined)
-    {
-        link.hide();
+    if(value.url === undefined) {
+      //link.hide();
+    } else {   
+      link.attr("href",value.url);
     }
-    else
-    {   
-        link.attr("href",value.url);
-    }
+    
     //Hide the 'more information' link
-    tooltips.eq(1).hide();
+    //tooltips.eq(1).hide();
 
     var chartType = value['chart-type'];
     var chart;
@@ -78,10 +80,10 @@ function drawCharts(data) {
     } else if(chartType == 'piechart') {
       chart = new google.visualization.PieChart(drawChartDiv[0]);
     } else {
-      
+      //console.log("error: unrecognized chart type " + chartType);
     }
       //console.log("error: unrecognized chart type " + chartType);
-    chart.draw(chartData, {width: 400, height: 240});
+    chart.draw(chartData, options);
     // add to DOM object
 
   });
